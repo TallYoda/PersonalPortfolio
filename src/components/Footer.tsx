@@ -52,11 +52,11 @@ export default function Footer() {
 
       <div className="container copyright text-center mt-4">
         <p>
-          © <span>Copyright</span> <strong className="px-1 sitename">MyPortfolio</strong>{' '}
+          © <span>Copyright</span> <strong className="px-1 sitename">Jote's Portfolio</strong>{' '}
           <span>All Rights Reserved</span>
         </p>
         <div className="credits">
-          Designed by me
+          Designed by Jote Tolesa
         </div>
       </div>
     </footer>
