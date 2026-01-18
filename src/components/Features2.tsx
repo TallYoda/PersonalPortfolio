@@ -1,46 +1,58 @@
 export default function Features2() {
   const experience = [
     {
-      title: 'Freelance Web and Graphics Design',
+      title: 'Web Developer / Creative Project Manager',
       period: '2023 - Present',
-      location: 'Addis Abeba, Ethiopia',
+      location: 'Freelance, Addis Ababa, Ethiopia',
       bullets: [
-        'Design, development, and implementation of the graphic, layout, and production of professional webpages and landing sites.',
-        'Draft and implement social media campaigns for different businesses.',
-        'Supervise the assessment of all graphic materials to ensure quality and accuracy.',
-        'Take, edit, and post photographs for websites and social media accounts.'
+        'Designed and developed websites and portfolios for visual artists and small businesses using Bootstrap.',
+        'Guided artists in refining portfolios, grant applications, and exhibition materials.',
+        'Managed client communication, scheduling, and deliverables to ensure smooth project completion.',
+        'Wrote and edited SEO-optimized content to improve online visibility.',
+        'Provided visual support through photography, layout design, and digital editing.'
       ]
     },
     {
-      title: 'Dispatcher/Office Manager',
-      period: '2021 - 2022',
-      location: 'Trades Labour Corporation, Calgary Alberta, Canada.',
+      title: 'Operations and Communications Assistant',
+      period: '2023 - 2025',
+      location: 'Zumbara Mining plc, Addis Ababa, Ethiopia',
       bullets: [
-        'Handled all day to day operations of the branch.',
-        'Worked in a high stakes, high pressure environment.',
-        'Handled both client and worker communications.',
-        'Made significant changes to the internal workflow of the company.'
+        'Supported business operations for an investment consultancy in Ethiopia’s mining sector.',
+        'Drafted and compiled investor pitch materials and project proposals.',
+        'Coordinated communication between consultants, investors, and regulatory offices.',
+        'Maintained organized digital records and contributed to client-facing presentations.'
+      ]
+    },
+    {
+      title: 'Office Manager',
+      period: '2021 - 2022',
+      location: 'Trades Labour Corporation, Calgary, Alberta, Canada',
+      bullets: [
+        'Oversaw day-to-day office operations for a labour sourcing company.',
+        'Coordinated communication between job sites, field workers, and management.',
+        'Managed scheduling, documentation, and payroll support tasks.',
+        'Advanced from front desk to management through reliability and strong organization.'
       ]
     },
     {
       title: 'Content Writer',
       period: '2021',
-      location: 'Quinnstar Productions, Calgary Alberta, Canada.',
+      location: 'Quinnstar Productions, Calgary, Alberta, Canada',
       bullets: [
-        'Wrote, edited, and published various content for different blog pages.',
-        'Published up to 5 articles per day.',
-        'Worked on SEO and page visibility to drive traffic and engagement.'
+        'Created and published content across multiple blog pages.',
+        'Produced up to five articles daily.',
+        'Applied SEO to improve visibility, traffic, and engagement.'
       ]
     },
     {
-      title: 'Web Developer and Content Writer',
-      period: '2019 - 2020',
+      title: 'Web Development and Copywriting',
+      period: '2019',
       location: 'Belcash Technologies, Addis Ababa, Ethiopia',
       bullets: [
-        'Used licensed company software to make websites and handle SEO and link-building.',
-        'Wrote, edited and published content for websites.',
-        'Personally corresponded with clients to understand their requirements.',
-        'Supervised 3 other designers on larger projects.'
+        'Built and maintained websites using licensed company software.',
+        'Created, revised, and posted website content.',
+        'Handled SEO and link-building initiatives.',
+        'Engaged clients directly to understand requirements.'
       ]
     }
   ]
@@ -61,24 +73,43 @@ export default function Features2() {
           <div className="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 className="mb-3">Summary</h3>
             <div className="p-4 border rounded-3 bg-white shadow-sm">
-              <h4 className="mb-2">Jote Shagi</h4>
+              <h4 className="mb-2">Jote Tolesa Shagi</h4>
               <p className="mb-3">
-                Innovative and deadline-driven Website Developer with 3+ years of experience
-                designing and developing user-centered websites from initial concept to final,
-                polished deliverable.
+                Reliable and adaptable professional with experience in office coordination,
+                investor relations, and web development. Skilled in managing daily operations,
+                maintaining clear communication, and using digital tools to support smooth
+                business processes.
               </p>
-              <ul className="list-unstyled mb-0">
+              <ul className="list-unstyled mb-3">
                 <li>Addis Ababa, Ethiopia</li>
-                <li>+251 945-218-252</li>
+                <li>+251 9452152</li>
                 <li>joteshagi@gmail.com</li>
+              </ul>
+              <h5 className="mb-2">Skills</h5>
+              <ul className="list-unstyled mb-0">
+                <li>Front-end Web Design</li>
+                <li>Operations & Office Management</li>
+                <li>Dispatch & Workforce Coordination</li>
+                <li>Communication & Client Relations</li>
+                <li>Photography & Editing</li>
+                <li>Microsoft Excel/Access/PowerPoint</li>
+                <li>Project Management Tools</li>
+                <li>Project Organization & Reporting</li>
               </ul>
             </div>
 
             <h3 className="mt-5 mb-3">Education</h3>
-            <div className="p-4 border rounded-3 bg-white shadow-sm">
-              <h4 className="mb-1">Highschool Diploma</h4>
-              <div className="text-muted">2014 - 2018</div>
-              <p className="mb-0">St. Joseph High School, Addis Ababa, Ethiopia</p>
+            <div className="d-grid gap-3">
+              <div className="p-4 border rounded-3 bg-white shadow-sm">
+                <h4 className="mb-1">St. Joseph Highschool</h4>
+                <div className="text-muted">2014 - 2018</div>
+                <p className="mb-0">Highschool Diploma</p>
+              </div>
+              <div className="p-4 border rounded-3 bg-white shadow-sm">
+                <h4 className="mb-1">Addis Ababa University</h4>
+                <div className="text-muted">2019 - 2021</div>
+                <p className="mb-0">Computer Science Department (3.2 GPA until withdrawal)</p>
+              </div>
             </div>
           </div>
 
