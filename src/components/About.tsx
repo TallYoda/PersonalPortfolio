@@ -4,7 +4,7 @@ export default function About() {
     { name: 'Adobe Illustrator', level: '70%' },
     { name: 'HTML5/CSS3', level: '99%' },
     { name: 'Bootstrap', level: '87%' },
-    { name: 'Python for Chatbots', level: '85%' },
+    { name: 'Python for Chatbots, and Data Scraping', level: '85%' },
     { name: 'Canva', level: '88%' },
     { name: 'Microsoft Excel', level: '80%' }
   ]
@@ -42,7 +42,7 @@ export default function About() {
           <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
             <div className="visual-section">
               <img
-                src="/assets/img/portfolio/portrait.jpg"
+                src="/assets/img/portfolio/portrait.webp"
                 alt="Jote Tolesa portrait"
                 className="img-fluid rounded-3 mb-4"
               />

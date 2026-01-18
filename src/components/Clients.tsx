@@ -1,10 +1,10 @@
 export default function Clients() {
   const clients = [
-    { name: 'Belcash', logo: '/assets/img/portfolio/logo_belcash.png' },
-    { name: 'Hello Solar', logo: '/assets/img/portfolio/hs-logo.png' },
-    { name: 'TLC', logo: '/assets/img/portfolio/tlc_logo.png' },
-    { name: 'Haile', logo: '/assets/img/portfolio/haile-logo.png' },
-    { name: 'Kelib', logo: '/assets/img/portfolio/keliblogo.png' }
+    { name: 'Belcash', logo: '/assets/img/portfolio/logo_belcash.webp' },
+    { name: 'Hello Solar', logo: '/assets/img/portfolio/hs-logo.webp' },
+    { name: 'TLC', logo: '/assets/img/portfolio/tlc_logo.webp' },
+    { name: 'Haile', logo: '/assets/img/portfolio/haile-logo.webp' },
+    { name: 'Kelib', logo: '/assets/img/portfolio/keliblogo.webp' }
   ]
 
   return (

@@ -35,7 +35,7 @@ export default function Hero() {
             <div className="hero-visual">
               <div className="hero-image-wrapper">
                 <img 
-                  src="/assets/img/portfolio/solar-first.png" 
+                  src="/assets/img/portfolio/solar-first.webp"
                   className="img-fluid hero-image" 
                   alt="Hello Solar project preview"
                 />

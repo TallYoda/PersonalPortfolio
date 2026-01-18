@@ -10,42 +10,42 @@ export default function Features() {
       title: 'Hello Solar',
       category: 'Web',
       subtitle: 'Website',
-      image: '/assets/img/portfolio/solar-first.png'
+      image: '/assets/img/portfolio/solar-first.webp'
     },
     {
       id: 'project-tlc',
       title: 'Trades Labour Corporation',
       category: 'Web',
       subtitle: 'Website & Content',
-      image: '/assets/img/portfolio/tlc-last.jpg'
+      image: '/assets/img/portfolio/tlc-last.webp'
     },
     {
       id: 'project-kelib-branding',
       title: 'Kelib Workshop',
       category: 'Branding',
       subtitle: 'Branding and Social Media',
-      image: '/assets/img/portfolio/3.png'
+      image: '/assets/img/portfolio/3.webp'
     },
     {
       id: 'project-vintage-shirt',
       title: 'Digital Concept Art for Vintage T-shirt Print',
       category: 'Design',
       subtitle: 'Design',
-      image: '/assets/img/portfolio/Eritre-both.png'
+      image: '/assets/img/portfolio/Eritre-both.webp'
     },
     {
       id: 'project-pillar-x',
       title: 'Pillar X',
       category: 'Branding',
       subtitle: 'Branding',
-      image: '/assets/img/portfolio/x.jpg'
+      image: '/assets/img/portfolio/x.webp'
     },
     {
       id: 'project-visual-artist-portfolio',
       title: 'Artist Portfolio Site',
       category: 'Web',
       subtitle: 'Website',
-      image: '/assets/img/portfolio/Mikiyas.png'
+      image: '/assets/img/portfolio/Mikiyas.webp'
     }
   ]
 

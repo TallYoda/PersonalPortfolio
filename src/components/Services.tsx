@@ -74,7 +74,7 @@ export default function Services() {
           </div>
           <div className="col-lg-6">
             <div className="hero-visual" data-aos="fade-left" data-aos-delay="150">
-              <img src="/assets/img/portfolio/mikiyas4.png" alt="Services" className="img-fluid" />
+              <img src="/assets/img/portfolio/mikiyas4.webp" alt="Services" className="img-fluid" />
             </div>
           </div>
         </div>
