@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 
 export default function Features() {
-  const categories = ['All', 'Web', 'Design', 'Branding']
+  const categories = ['All', 'Web', 'Design', 'Branding', 'Software']
   const [activeCategory, setActiveCategory] = useState('All')
 
   const projects = [
@@ -34,11 +34,11 @@ export default function Features() {
       image: '/assets/img/portfolio/Eritre-both.webp'
     },
     {
-      id: 'project-pillar-x',
-      title: 'Pillar X',
-      category: 'Branding',
-      subtitle: 'Branding',
-      image: '/assets/img/portfolio/x.webp'
+      id: 'software',
+      title: 'Chereta4us Tender Bot',
+      category: 'Software',
+      subtitle: 'Automation Bot',
+      image: '/assets/img/portfolio/tender-bot.svg'
     },
     {
       id: 'project-visual-artist-portfolio',

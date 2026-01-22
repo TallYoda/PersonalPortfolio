@@ -15,7 +15,7 @@ export default function FeaturesCards() {
       gallery: ['/assets/img/portfolio/hellosolar-snap-p2.webp', '/assets/img/portfolio/solar-page2.webp']
     },
     {
-      id: 'project-tender-bot',
+      id: 'software',
       title: 'Tender Scraping Bot - Automation Workflow',
       summary:
         'Built Chereta4us, a scheduled Python scraper on Render that runs every 24 hours and populates a Neon Postgres database.',
