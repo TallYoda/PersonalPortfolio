@@ -15,6 +15,21 @@ export default function FeaturesCards() {
       gallery: ['/assets/img/portfolio/hellosolar-snap-p2.webp', '/assets/img/portfolio/solar-page2.webp']
     },
     {
+      id: 'project-tender-bot',
+      title: 'Tender Scraping Bot - Automation Workflow',
+      summary:
+        'Built Chereta4us, a scheduled Python scraper on Render that runs every 24 hours and populates a Neon Postgres database.',
+      image: '/assets/img/portfolio/tender-bot.svg',
+      label: 'Automation',
+      type: 'Product Diagram',
+      details:
+        'The workflow uses Chromium for scraping, stores normalized tenders in Neon Postgres, and a Python relay bot sends relevant records to users on demand.',
+      work: ['Python scheduled scraper', 'Chromium automation', 'Neon Postgres schema', 'User relay bot'],
+      link: 'https://t.me/Chereta4us_bot',
+      ctaLabel: 'Check out the bot',
+      gallery: ['/assets/img/portfolio/bot1.png', '/assets/img/portfolio/bot2.png']
+    },
+    {
       id: 'project-visual-artist-portfolio',
       title: 'Portfolio Site for Visual Artist',
       summary:
@@ -105,13 +120,15 @@ export default function FeaturesCards() {
           >
             <div className="col-lg-6">
               <img src={project.image} alt={project.title} className="img-fluid rounded-3 shadow-sm" />
-              <div className="row g-3 mt-2">
-                {project.gallery.map((image) => (
-                  <div key={image} className="col-6">
-                    <img src={image} alt={`${project.title} gallery`} className="img-fluid rounded-3" />
-                  </div>
-                ))}
-              </div>
+              {project.gallery.length > 0 && (
+                <div className="row g-3 mt-2">
+                  {project.gallery.map((image) => (
+                    <div key={image} className="col-6">
+                      <img src={image} alt={`${project.title} gallery`} className="img-fluid rounded-3" />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
             <div className="col-lg-6">
               <span className="section-badge mb-2 d-inline-flex">Project</span>
@@ -128,8 +145,8 @@ export default function FeaturesCards() {
                   <li key={item}>{item}</li>
                 ))}
               </ul>
-              <a href={project.link} className="btn-primary">
-                {project.link.startsWith('http') ? 'Visit Website' : 'Back to Portfolio'}
+              <a href={project.link} className="btn-primary" target={project.link.startsWith('http') ? '_blank' : undefined} rel={project.link.startsWith('http') ? 'noreferrer' : undefined}>
+                {project.ctaLabel ?? (project.link.startsWith('http') ? 'Visit Website' : 'Back to Portfolio')}
               </a>
             </div>
           </div>

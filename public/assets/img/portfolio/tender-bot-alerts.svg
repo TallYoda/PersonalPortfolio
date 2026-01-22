@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Tender bot alerts and dashboard preview">
+  <defs>
+    <linearGradient id="dash-bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#dash-bg)"/>
+
+  <rect x="140" y="140" width="740" height="420" rx="22" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <rect x="170" y="180" width="200" height="140" rx="16" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+  <rect x="400" y="180" width="200" height="140" rx="16" fill="#111827" stroke="#22c55e" stroke-width="2"/>
+  <rect x="630" y="180" width="200" height="140" rx="16" fill="#111827" stroke="#f97316" stroke-width="2"/>
+
+  <rect x="170" y="350" width="660" height="170" rx="16" fill="#111827" stroke="#a855f7" stroke-width="2"/>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#e2e8f0">
+    <text x="200" y="215" font-size="14">Daily Matches</text>
+    <text x="200" y="250" font-size="26">42</text>
+    <text x="430" y="215" font-size="14">High Priority</text>
+    <text x="430" y="250" font-size="26">12</text>
+    <text x="660" y="215" font-size="14">Deadlines</text>
+    <text x="660" y="250" font-size="26">5</text>
+    <text x="200" y="385" font-size="14">Latest Tenders</text>
+  </g>
+
+  <g stroke="#334155" stroke-width="2">
+    <line x1="200" y1="410" x2="800" y2="410"/>
+    <line x1="200" y1="450" x2="800" y2="450"/>
+    <line x1="200" y1="490" x2="800" y2="490"/>
+  </g>
+
+  <g>
+    <rect x="920" y="170" width="200" height="110" rx="18" fill="#111827" stroke="#22c55e" stroke-width="2"/>
+    <rect x="920" y="310" width="200" height="110" rx="18" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="920" y="450" width="200" height="110" rx="18" fill="#111827" stroke="#f97316" stroke-width="2"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#e2e8f0" font-size="14">
+    <text x="940" y="210">Email Alerts</text>
+    <text x="940" y="350">Slack Digest</text>
+    <text x="940" y="490">Sheets Export</text>
+  </g>
+</svg>
+
