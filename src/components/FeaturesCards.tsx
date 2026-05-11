@@ -1,6 +1,26 @@
 export default function FeaturesCards() {
   const projects = [
     {
+      id: 'project-the-dialogue',
+      title: 'The Dialogue - Immersive Exhibition',
+      summary:
+        'A collaborative web experience co-created with visual artist Mikiyas Sintayehu, launching a text-based adventure inspired by three of his paintings.',
+      image: '/assets/img/portfolio/main.png',
+      label: 'Collaborative Art + Web',
+      type: 'Interactive Narrative',
+      details:
+        'We translated three original paintings into an atmospheric digital journey where writing, pacing, and visual mood guide the audience through an immersive story world.',
+      work: [
+        'Creative direction and close artist collaboration',
+        'Narrative and experience structure for a text-based adventure',
+        'Frontend implementation and interaction flow',
+        'Visual curation and presentation for web'
+      ],
+      link: 'https://the-project-nu.vercel.app/',
+      ctaLabel: 'Enter Experience',
+      gallery: ['/assets/img/portfolio/2.png', '/assets/img/portfolio/3.png', '/assets/img/portfolio/4.png']
+    },
+    {
       id: 'project-hello-solar',
       title: 'Hello Solar - Website',
       summary:

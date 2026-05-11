@@ -6,6 +6,13 @@ export default function Features() {
 
   const projects = [
     {
+      id: 'project-the-dialogue',
+      title: 'The Dialogue - Immersive Exhibition',
+      category: 'Web',
+      subtitle: 'Collaborative Text-Based Adventure',
+      image: '/assets/img/portfolio/main.png'
+    },
+    {
       id: 'project-hello-solar',
       title: 'Hello Solar',
       category: 'Web',
