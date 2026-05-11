@@ -1,0 +1,37 @@
+<svg width="1080" height="2400" viewBox="0 0 1080 2400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="2400" fill="#0B141A"/>
+  <rect x="0" y="0" width="1080" height="180" fill="#1F2C34"/>
+  <text x="70" y="115" fill="#E9EDEF" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="700">Chats</text>
+  <circle cx="985" cy="95" r="10" fill="#E9EDEF"/>
+  <circle cx="985" cy="125" r="10" fill="#E9EDEF"/>
+  <circle cx="985" cy="65" r="10" fill="#E9EDEF"/>
+
+  <g transform="translate(0,210)">
+    <rect x="0" y="0" width="1080" height="1" fill="#253740"/>
+    <circle cx="90" cy="88" r="42" fill="#546E7A"/>
+    <text x="170" y="76" fill="#E9EDEF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="600">Doomscroll Intervention</text>
+    <text x="170" y="126" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="30">Jote: Shared 5h 42m screen time</text>
+    <text x="910" y="76" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="28">11:48</text>
+    <path d="M1000 70 L1024 82 L1006 100 Z" fill="#25D366"/>
+  </g>
+
+  <g transform="translate(0,390)">
+    <rect x="0" y="0" width="1080" height="1" fill="#253740"/>
+    <circle cx="90" cy="88" r="42" fill="#5E35B1"/>
+    <text x="170" y="76" fill="#E9EDEF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="600">Focus Squad</text>
+    <text x="170" y="126" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="30">Miki: We need less reels today.</text>
+    <text x="910" y="76" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="28">10:31</text>
+  </g>
+
+  <g transform="translate(0,570)">
+    <rect x="0" y="0" width="1080" height="1" fill="#253740"/>
+    <circle cx="90" cy="88" r="42" fill="#00897B"/>
+    <text x="170" y="76" fill="#E9EDEF" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="600">No Scroll Club</text>
+    <text x="170" y="126" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="30">Invite code copied</text>
+    <text x="910" y="76" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="28">09:12</text>
+  </g>
+
+  <circle cx="930" cy="2180" r="90" fill="#25D366"/>
+  <rect x="890" y="2170" width="80" height="20" rx="10" fill="#0B141A"/>
+  <rect x="920" y="2140" width="20" height="80" rx="10" fill="#0B141A"/>
+</svg>

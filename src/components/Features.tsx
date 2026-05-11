@@ -13,6 +13,13 @@ export default function Features() {
       image: '/assets/img/portfolio/main.png'
     },
     {
+      id: 'project-yilugnta-app',
+      title: 'Yilugnta - Social Accountability App',
+      category: 'Software',
+      subtitle: 'Auto-share Screen Time with Friends',
+      image: '/assets/img/portfolio/yilugnta-welcome.png'
+    },
+    {
       id: 'project-hello-solar',
       title: 'Hello Solar',
       category: 'Web',
@@ -95,7 +102,22 @@ export default function Features() {
             <div key={project.id} className="col-md-6 col-lg-4">
               <a href={`#${project.id}`} className="text-decoration-none">
                 <div className="card h-100 shadow-sm">
-                  <img src={project.image} className="card-img-top" alt={project.title} />
+                  {(() => {
+                    const isYilugntaWelcome = project.image.includes('yilugnta-welcome')
+                    return (
+                  <img
+                    src={project.image}
+                    className="card-img-top"
+                    alt={project.title}
+                    style={{
+                      height: '220px',
+                      objectFit: isYilugntaWelcome ? 'contain' : 'cover',
+                      objectPosition: 'top',
+                      backgroundColor: isYilugntaWelcome ? '#0B141A' : 'transparent'
+                    }}
+                  />
+                    )
+                  })()}
                   <div className="card-body">
                     <h5 className="card-title mb-1">{project.title}</h5>
                     <p className="card-text text-muted mb-0">{project.subtitle}</p>

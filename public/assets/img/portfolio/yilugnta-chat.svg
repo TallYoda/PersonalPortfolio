@@ -1,0 +1,27 @@
+<svg width="1080" height="2400" viewBox="0 0 1080 2400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1080" height="2400" fill="#0B141A"/>
+  <rect x="0" y="0" width="1080" height="180" fill="#1F2C34"/>
+  <path d="M68 95 L108 65 L108 85 L150 85 L150 105 L108 105 L108 125 Z" fill="#E9EDEF"/>
+  <text x="190" y="82" fill="#E9EDEF" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700">Doomscroll Intervention</text>
+  <text x="190" y="130" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="28">Jote, Miki, Hana</text>
+
+  <rect x="48" y="260" rx="26" ry="26" width="620" height="120" fill="#1F2C34"/>
+  <text x="88" y="328" fill="#E9EDEF" font-family="Inter, Arial, sans-serif" font-size="30">I already spent 4h on shorts today...</text>
+  <text x="608" y="360" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="22">10:02</text>
+
+  <rect x="412" y="430" rx="26" ry="26" width="620" height="130" fill="#25D366"/>
+  <text x="452" y="500" fill="#0B141A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="600">Share Screen Time: 5h 42m today</text>
+  <text x="972" y="536" fill="#124B2A" font-family="Inter, Arial, sans-serif" font-size="22">10:03</text>
+
+  <rect x="48" y="610" rx="26" ry="26" width="560" height="120" fill="#1F2C34"/>
+  <text x="88" y="678" fill="#E9EDEF" font-family="Inter, Arial, sans-serif" font-size="30">Respect for posting it publicly.</text>
+  <text x="548" y="710" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="22">10:05</text>
+
+  <rect x="0" y="2160" width="1080" height="240" fill="#1F2C34"/>
+  <rect x="32" y="2208" rx="36" ry="36" width="700" height="96" fill="#0F1B21"/>
+  <text x="78" y="2268" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="34">Message</text>
+  <circle cx="794" cy="2258" r="42" fill="#0F1B21"/>
+  <path d="M778 2258 L812 2240 L804 2258 L812 2276 Z" fill="#25D366"/>
+  <rect x="852" y="2210" rx="30" ry="30" width="196" height="96" fill="#25D366"/>
+  <text x="950" y="2270" fill="#0B141A" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Spill</text>
+</svg>

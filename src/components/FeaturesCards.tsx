@@ -21,6 +21,27 @@ export default function FeaturesCards() {
       gallery: ['/assets/img/portfolio/2.png', '/assets/img/portfolio/3.png', '/assets/img/portfolio/4.png']
     },
     {
+      id: 'project-yilugnta-app',
+      title: 'Yilugnta - Social Accountability Mobile App',
+      summary:
+        'A social accountability app that automatically shares screen-time habits with friends so doomscrolling stays visible and accountable.',
+      image: '/assets/img/portfolio/yilugnta-welcome.png',
+      label: 'Mobile Product',
+      type: 'Android App',
+      details:
+        'Built as a basic messaging app with an explicit feature to send your live screen-time usage into group chats, turning private habits into social accountability.',
+      work: [
+        'Product concept and UX direction for social accountability',
+        'Android Studio + Kotlin implementation with Jetpack Compose UI across onboarding, groups, and chat',
+        'Real-time group messaging flow with invite-code collaboration',
+        'Firebase integration for Google Auth sign-in and account flow',
+        'One-tap screen-time sharing so friends can keep each other accountable'
+      ],
+      link: '#works',
+      ctaLabel: 'Project In Progress',
+      gallery: ['/assets/img/portfolio/yilugnta-groups.svg', '/assets/img/portfolio/yilugnta-chat.svg']
+    },
+    {
       id: 'project-hello-solar',
       title: 'Hello Solar - Website',
       summary:
@@ -139,12 +160,33 @@ export default function FeaturesCards() {
             data-aos-delay={100 + index * 50}
           >
             <div className="col-lg-6">
-              <img src={project.image} alt={project.title} className="img-fluid rounded-3 shadow-sm" />
+              {(() => {
+                const isYilugntaWelcome = project.image.includes('yilugnta-welcome')
+                return (
+              <img
+                src={project.image}
+                alt={project.title}
+                className="img-fluid rounded-3 shadow-sm"
+                style={{
+                  width: '100%',
+                  maxHeight: '420px',
+                  objectFit: isYilugntaWelcome ? 'contain' : 'cover',
+                  objectPosition: 'top',
+                  backgroundColor: isYilugntaWelcome ? '#0B141A' : 'transparent'
+                }}
+              />
+                )
+              })()}
               {project.gallery.length > 0 && (
                 <div className="row g-3 mt-2">
                   {project.gallery.map((image) => (
                     <div key={image} className="col-6">
-                      <img src={image} alt={`${project.title} gallery`} className="img-fluid rounded-3" />
+                      <img
+                        src={image}
+                        alt={`${project.title} gallery`}
+                        className="img-fluid rounded-3"
+                        style={{ width: '100%', height: '180px', objectFit: 'cover', objectPosition: 'top' }}
+                      />
                     </div>
                   ))}
                 </div>

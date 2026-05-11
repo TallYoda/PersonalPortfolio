@@ -1,0 +1,18 @@
+<svg width="1080" height="2400" viewBox="0 0 1080 2400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="540" y1="0" x2="540" y2="2400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111A17"/>
+      <stop offset="1" stop-color="#1A2A24"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="2400" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1080" height="86" fill="#0B141A"/>
+  <text x="540" y="60" fill="#8696A0" font-family="Inter, Arial, sans-serif" font-size="28" text-anchor="middle">9:41</text>
+
+  <text x="540" y="980" fill="#E8F5EE" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="700" text-anchor="middle">Yilugnta</text>
+  <text x="540" y="1060" fill="#CDE3D7" font-family="Inter, Arial, sans-serif" font-size="36" text-anchor="middle">Harnessing shame as a tool</text>
+  <text x="540" y="1110" fill="#CDE3D7" font-family="Inter, Arial, sans-serif" font-size="36" text-anchor="middle">for social accountability</text>
+
+  <rect x="255" y="1210" rx="28" ry="28" width="570" height="108" fill="#25D366"/>
+  <text x="540" y="1276" fill="#0B141A" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle">Let's Try and Fix You</text>
+</svg>
